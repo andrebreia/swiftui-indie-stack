@@ -311,9 +311,11 @@ struct SettingsView: View {
                             authManager.signOut()
                         }
                     } else if authManager.canSignIn {
+                        #if canImport(GoogleSignIn)
                         NavigationLink("Sign In") {
                             LoginView()
                         }
+                        #endif
                     }
                 }
 
