@@ -29,11 +29,11 @@ enum AppConfiguration {
 
     /// Enable RevenueCat for subscriptions
     /// When disabled, paywall features are hidden
-    static let useRevenueCat = false
+    static let useRevenueCat = true
 
     /// Enable TelemetryDeck analytics
     /// Privacy-preserving analytics - no PII collected
-    static let useTelemetryDeck = false
+    static let useTelemetryDeck = true
 
     // MARK: - Feature Flags
 

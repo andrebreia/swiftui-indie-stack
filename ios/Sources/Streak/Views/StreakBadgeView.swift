@@ -40,7 +40,7 @@ struct StreakBadgeView: View {
 
             // Confetti for milestones
             ConfettiCannon(
-                counter: $confettiTrigger,
+                trigger: $confettiTrigger,
                 num: 50,
                 colors: [.orange, .red, .yellow],
                 rainHeight: 400,
