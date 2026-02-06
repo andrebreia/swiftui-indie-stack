@@ -53,8 +53,7 @@ GoogleService-Info.plist
 *.swo
 *~
 
-# AI Assistant configs (keep project-agnostic)
-CLAUDE.md
+# AI Assistant workspace folders (not the instruction files)
 .claude/
 .cursor/
 .aider/
